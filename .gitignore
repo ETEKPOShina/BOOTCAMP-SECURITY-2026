@@ -1,0 +1,31 @@
+# Dépendances
+node_modules/
+
+# Builds (régénérés par npm run build)
+dist/
+dist-site/
+*.tsbuildinfo
+
+# Secrets et configuration locale — ne jamais publier
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Journaux
+*.log
+npm-debug.log*
+
+# Tests et rapports
+coverage/
+test-results/
+playwright-report/
+
+# Fichiers système et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
